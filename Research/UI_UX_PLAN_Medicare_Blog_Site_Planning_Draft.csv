@@ -1,0 +1,18 @@
+Category,Detail,Proposed,UI/UX Rule
+Target Demographic,Age Group,"65+ (seniors, pre-retirees)","Target: Seniors 65+. Design with large text, high clarity, avoid jargon."
+Target Demographic,Tech Comfort,"Comfortable with basics, struggle with complex UIs","Keep UI simple, avoid complex navigation or hidden menus."
+Target Demographic,Device Usage,"Mostly desktop + tablets, rising mobile usage","Prioritize desktop/tablet layouts, ensure mobile buttons are large/tap-friendly."
+Target Demographic,Navigation Preference,"Visible flat navigation, avoid dropdown-heavy menus","Flat navigation bar, max 5–6 main menu items, minimal dropdowns."
+Target Demographic,Content Preference,"Clear FAQs, how-tos, step-by-step guides","Break content into FAQs, step-by-step guides, comparison tables."
+Target Demographic,Conversion Preference,Prefer calling over filling long forms,"Make phone number primary CTA, form secondary. Short form only (name, phone, zip)."
+Target Demographic,Font Preference,"Readable sans-serif (Arial, Roboto) at larger size","Readable sans-serif fonts (Arial/Roboto) at least 16–18px, spacious line height."
+Color Scheme,Trust Colors,"Blues (trust), Greens (health), White (clean)","Use blue/green/white scheme for trust, cleanliness, health associations."
+Color Scheme,Accessibility,High contrast for readability,"High contrast text: dark on light, no gray-on-gray."
+Color Scheme,Accent Colors,"Accent with warm colors (orange, yellow) for CTA buttons",Orange/yellow buttons for CTAs to stand out clearly.
+Proposed Pages,Homepage,Clear headline + CTA above fold,Above-the-fold headline + CTA. Keep nav clear.
+Proposed Pages,About Us,"Mission, credibility, trust signals","Highlight mission, credibility, and trust badges/logos."
+Proposed Pages,Blog / Articles,SEO-driven content,"SEO blog layout with clear headlines, subheadings, CTA inserts."
+Proposed Pages,"Resources (Guides, FAQs)",Educational hub with subpages,Educational hub with FAQs in accordion style for easy scanning.
+Proposed Pages,Compare Plans / Lead Magnet,Simple quiz / plan comparison with CTA,Use comparison charts/tables with simple visuals (checkmarks).
+Proposed Pages,Contact (Form + Phone),Short form + call now button,Short form + large 'Call Now' button. CTAs repeated down page.
+Proposed Pages,Legal/Compliance,"Disclaimers, HIPAA notice, Medicare/CMS disclaimer",Always display disclaimers: CMS disclaimer + HIPAA/privacy footer.

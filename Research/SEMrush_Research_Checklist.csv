@@ -1,0 +1,10 @@
+Step,Action,Tool/Report,Notes/What to Record
+1,Brainstorm seed keywords,Manual,"List keywords: Medicare help, Medicare Advantage, Compare Medicare Plans, etc."
+2,Check keyword volume + KD,SEMrush → Keyword Overview,"Record: Search Volume, Keyword Difficulty (KD), CPC"
+3,Expand into long-tail/geo variations,SEMrush → Keyword Magic Tool,"Note top variations (e.g., Medicare Advantage Georgia, Medicare in Florida)"
+4,Identify top competitors,SEMrush → Organic Research,Record competitor domains + their top-ranking keywords
+5,Check SERP composition,Google Search + SEMrush SERP Features,Check if dominated by .gov/.org vs smaller blogs
+6,Tag keywords as National / State / Niche,Manual classification,"Classify keywords into National, State, or Niche categories"
+7,Select best domain angle,Compare findings,Choose between National SEO or State-specific strategy
+8,Verify domain availability,"Domain registrar (GoDaddy, Namecheap, Google Domains)",Check if exact-match or partial-match domain is available
+,"***Note: The safer way to avoid resetting SEO is to start with one strong national domain (e.g., MedicareHelpToday.com) and build state subfolders (/georgia/, /florida/, etc.). This keeps all backlinks and authority consolidated.***",,

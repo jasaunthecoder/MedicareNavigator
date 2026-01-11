@@ -1,0 +1,315 @@
+:root {
+  --color-primary: #880D1E;
+  --color-secondary: #DD2D4A;
+  --color-accent: #f087a1;
+  --color-soft: #fccfde;
+  --color-bg: #43def3;
+  --color-text: #1a1a1a;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* 1) Remove default UL spacing (critical) */
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* 2) Basic link styling */
+
+
+/* --- TOP NAV --- */
+.top-nav {
+   background: linear-gradient(90deg,
+    var(--color-primary) 0%,
+    var(--color-secondary) 55%,
+    var(--color-accent) 100%
+  );
+  padding: 14px 24px;
+  font-size: 1rem;
+}
+
+.top-nav .nav-inner {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.card {
+    border: 1px solid lightcoral;
+    max-width: 620px;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.phone-space {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.phone-space a {
+    color: var(--color-accent);
+}
+
+.phone {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.fa-phone {
+    color: var(--color-bg);
+}
+
+.fa-angle-down {
+    color: var(--color-bg);
+}
+
+.divider-item {
+  position: relative;
+  padding-right: 16px; /* space before divider */
+}
+
+.divider-item::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 1px;
+  height: 18px;
+  background-color: lightcoral; /* or your brand color */
+}
+
+.top-nav .nav-inner li:last-child {
+  color: var(--color-bg) !important;
+}
+
+.top-nav a {
+    color: #fff;
+}
+
+.representative {
+    margin-left: auto;
+    text-decoration: none;
+    font-size: .85rem;
+    color: var(--color-soft) !important;
+}
+
+/* --- BOTTOM NAV --- */
+.bottom-nav {
+    padding: 24px 24px 0;
+    font-weight: bold;
+}
+
+.bottom-nav a {
+    text-decoration: none;
+}
+
+.bottom-nav .nav-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.inner-links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 1.1rem;
+}
+
+.inner-links a {
+    color: #1a1a1a;
+}
+
+.inner-links a:hover {
+    color: var(--color-secondary);
+}
+
+.inner-links a:focus {
+    color: var(--color-secondary);
+}
+
+.brand-text a{
+    color: var(--color-secondary);
+}
+.logo {
+    width: 30px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+}
+
+/* -- Search utility nav --*/
+
+.nav-search input {
+    height: 38px;
+    padding: 0 12px 0 34px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 0.95rem;
+}
+
+.nav-search {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.nav-search i {
+    position: absolute;
+    left: 10px;
+    pointer-events: none;
+    font-size: 0.95rem;
+}
+
+
+/* -- inner nav container -- */
+
+/* -- hero --*/
+
+.hero-inner {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.hero-left {
+    flex: 1;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    padding: 0 25px;
+    font-size: 1.1rem;
+    margin-bottom: 90px;
+}
+
+.hero-left h2 {
+    font-size: 3rem;
+}
+
+.hero-left span {
+    color: var(--color-primary);
+}
+
+
+.hero-right {
+  flex: 1;
+  min-height: 380px;
+  background-image: url("images/Hero_Image.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 70% 27%;
+  border-radius: 16px;
+}
+
+.bullet-card {
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 10px 15px;
+    background-color: lightgray;
+    flex:0 0 calc(35% - 17px);
+}
+
+.hero-left ul {
+  display: flex;
+  flex-wrap: wrap;     /* ✅ this is the key */
+  gap: 12px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.fa-caret-right {
+    color: var(--color-bg);
+}
+
+/* -- Plan finder card in hero --*/
+
+.hero-plan-card {
+    border: 1px solid rgba(255,255,255,0.6);
+    border-radius: 10px;
+    backdrop-filter: blur(8px);
+    box-shadow: 0 18px 50px rgba(0,0,0,0.18);
+    overflow: hidden;
+    max-width: 500px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 16px;
+    position: absolute;
+    left: 60%;
+    top: 80%;
+    transform: translate(-50%, -50%);
+}
+
+.insurance-type-card {
+    display: flex;
+}
+
+.insurance-type-card button:first-child {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.insurance-type-card button:nth-child(2) {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.card-button {
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    color: #1a1a1a;
+}
+
+.active {
+    background: #1E6BD6;
+    color: white;
+}
+
+.zip-code-form {
+    display: flex;
+    gap: 10px;
+}
+
+.zip-code-form input {
+    flex: 1;
+  height: 44px;
+  padding: 0 12px;
+  border-color: #ccc;
+}
+
+.zip-code-form button {
+    background: #1E6BD6;
+    height: 44px;
+  padding: 0 18px;
+  border-radius: 8px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.help-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: .9rem;
+}
+
+.help-container a {
+    text-decoration: none;
+    color: #1E6BD6;
+}
