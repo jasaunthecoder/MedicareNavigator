@@ -13,6 +13,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet" />
     <!-- CSS -->
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="assisted-enrollment.css" />
+
 </head>
 
 <body>
@@ -39,12 +41,50 @@
                         <span class="brand-text"><a href="#">EDICARENAVIGATOR.COM</a></span>
                     </div>
                     <ul class="inner-links">
-                        <li><a href="#">Giveback Map <i class="fa-solid fa-angle-down"></i></a></li>
-                        <li><a href="#">Food Card</a></li>
-                        <li><a href="#">Plans <i class="fa-solid fa-angle-down"></i></a></li>
-                        <li><a href="#">Medicare <i class="fa-solid fa-angle-down"></i></a></li>
-                        <li><a href="#">Rules & Coverage</a></li>
-                        <li><a href="#">Savings</a></li>
+                        <li class="nav-item has-dropdown">
+                            <a class="nav-link" href="#">Part B Giveback Map <i class="fa-solid fa-angle-down"></i></a>
+                            <div class="dropdown-card" aria-label="Medicare menu">
+                                <a href="#">What is a Part b giveback</a>
+                                <a href="#">Giveback Companies</a>
+                                <a href="#">How much can you get back?</a>
+                            </div>
+                        </li>
+
+
+                        <li class="nav-item has-dropdown">
+                            <a class="nav-link" href="#">Food Card <i class="fa-solid fa-angle-down"></i></a>
+                            <div class="dropdown-card" aria-label="Medicare menu">
+                                <a href="#">What is a food card?</a>
+                                <a href="#">Food Card Plans</a>
+                                <a href="#">Eligibility</a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item has-dropdown">
+                            <a class="nav-link" href="#">Medicare <i class="fa-solid fa-angle-down"></i></a>
+                            <div class="dropdown-card" aria-label="Medicare menu">
+                                <a href="#">What is medicare</a>
+                                <a href="#">Original Medicare</a>
+                                <a href="#">Medicare Advantage</a>
+                                <a href="#">Medicare Psrts A B C D explained</a>
+                                <a href="#">Enrollment Periods</a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item has-dropdown">
+                            <a class="nav-link" href="#">Medicare Supplement Plans <i
+                                    class="fa-solid fa-angle-down"></i></a>
+                            <div class="dropdown-card" aria-label="Medicare menu">
+                                <a href="#">Compare Medicare Supplement Plans</a>
+                                <a href="#">Eligibility </a>
+                                <a href="#">Enrollment Periods</a>
+                                <a href="#">Medicare Parts A B C D Explained</a>
+                                <a href="#">Supplement Companies</a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item"><a class="nav-link" href="#">FAQ <i class="fa-solid fa-angle-down"></i></a>
+                        </li>
                     </ul>
                     <div class="nav-utility">
                         <form class="nav-search">
@@ -86,7 +126,144 @@
                 </div>
             </div>
         </section>
+        <section class="assisted-enrollment">
 
+            <!-- Header -->
+            <div class="enrollment-header">
+                <h2>
+                    Get Help Enrolling In Medicare With A
+                    <span>Licensed Medicare Insurance Agent</span>
+                </h2>
+                <p>
+                    Speak with a licensed agent for personalized assistance at no cost to you!
+                </p>
+            </div>
+
+            <!-- Steps Container -->
+            <div class="enrollment-steps">
+
+                <!-- STEP 1 -->
+                <article class="step-card">
+                    <p class="step-kicker">STEP 1</p>
+                    <h3 class="step-title">Learn Medicare Options</h3>
+
+                    <div class="step-icon">
+                        <svg width="64" height="64" viewBox="0 0 96 96" fill="none" xmlns="http://www.w3.org/2000/svg"
+                            aria-hidden="true">
+
+                            <rect x="18" y="18" width="60" height="68" rx="8" fill="var(--icon-fill)"
+                                stroke="var(--icon-stroke)" stroke-width="4" />
+
+                            <rect x="32" y="8" width="32" height="20" rx="6" fill="#E1E6EB" stroke="var(--icon-stroke)"
+                                stroke-width="4" />
+
+                            <path d="M30 40 L36 46 L48 34" stroke="var(--icon-accent)" stroke-width="4"
+                                stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                        </svg>
+                    </div>
+
+
+
+
+                    <p class="step-desc">
+                        Free needs analysis assessment
+                    </p>
+
+                    <a class="step-call" href="tel:18557992538">
+                        <i class="fa-solid fa-phone" aria-hidden="true"></i>
+                        <p>Call Now: <span>1-855-799-2538</span></p>
+                    </a>
+                </article>
+
+                <!-- STEP 2 -->
+                <article class="step-card">
+                    <p class="step-kicker">STEP 2</p>
+                    <h3 class="step-title">Compare Plans</h3>
+
+                    <div class="step-icon">
+                        <svg width="64" height="64" viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg"
+                            aria-hidden="true">
+                            <!-- Shield body -->
+                            <path d="M48 6
+         L82 18
+         V46
+         C82 66 62 82 48 90
+         C34 82 14 66 14 46
+         V18
+         L48 6Z" fill="var(--icon-fill)" stroke="var(--icon-stroke)" stroke-width="4" stroke-linejoin="round" />
+
+                            <!-- Checkmark -->
+                            <path d="M34 48 L44 58 L64 36" stroke="var(--icon-accent)" stroke-width="6"
+                                stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                        </svg>
+                    </div>
+
+
+                    <p class="step-desc">
+                        Guided recommendations based on your needs.
+                    </p>
+
+                    <a class="step-btn" href="#">
+                        View Available Plans
+                    </a>
+                </article>
+
+                <!-- STEP 3 (Agent Card Split) -->
+                <article class="step-card step-card--agent">
+                    <p class="step-kicker">STEP 3</p>
+                    <h3 class="step-title">Enroll in the Best Plan</h3>
+
+                    <div class="agent-split">
+
+                        <!-- Left: Copy + CTA -->
+                        <div class="agent-left">
+                            <h4>Speak to a Licensed Agent</h4>
+                            <p>
+                                Complete a quick FREE application right over the phone.
+                            </p>
+
+                            <a class="agent-btn" href="tel:18557992538">
+                                Call Now 1-855-799-2538
+                            </a>
+
+                            <p class="agent-hours">
+                                Mon – Fri, 9 a.m. – 6 p.m. ET
+                            </p>
+                        </div>
+
+                        <!-- Right: Agent Image -->
+                        <div class="agent-right">
+
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <!-- Footer CTA -->
+            <div class="enrollment-footer">
+                <div class="footer-left">
+                    <h3>
+                        Licensed and experienced agents who specialize in <strong>Medicare</strong>
+                    </h3>
+                    <ul class="checklist">
+                        <li>Understand all your options</li>
+                        <li>Answer your Medicare questions</li>
+                        <li>Help you enroll in the right plan</li>
+                    </ul>
+                </div>
+
+                <div class="footer-right">
+                    <p class="fineprint">
+                        There is zero cost to speak with us and no obligation to enroll.
+                    </p>
+
+                    <a class="primary-cta" href="tel:18557992538">
+                        Get Medicare Help
+                        <i class="fa-solid fa-angles-right" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
     </main>
 
     <!-- JS -->

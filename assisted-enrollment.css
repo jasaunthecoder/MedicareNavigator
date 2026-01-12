@@ -1,0 +1,180 @@
+:root {
+  --icon-fill: #F5F7FA;
+  --icon-stroke: #9AA7B2;
+  --icon-accent: #E02424;
+}
+
+
+.assisted-enrollment { 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    color: #1E6BD6;
+    padding: 40px 0 0;
+ }
+
+
+.enrollment-header { 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 1.2rem; 
+    padding: 20px 0;
+}
+
+.enrollment-header h2 {
+    margin: 0;
+}
+
+.enrollment-header p {
+    color: #6B7280;
+}
+
+.enrollment-header span {
+    color: var(--color-primary);
+    display: block;
+}
+.enrollment-steps { 
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    background: #F1F4FA;
+    padding: 25px;
+    border-radius: 6px;
+ }
+
+.enrollment-footer {
+    display: flex;
+}
+
+.step-card { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border: #F1F4FA 1px solid;
+    padding: 15px;
+    gap: 10px;
+    box-shadow: 2px 4px 10px lightgray;
+    flex: 1;
+}
+
+.enrollment-steps > .step-card:nth-of-type(1) { /* STEP 1 */
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+
+.enrollment-steps > .step-card:nth-of-type(2) { /* STEP 2 */ 
+
+}
+
+.enrollment-steps > .step-card:nth-of-type(3) { /* STEP 3 */ 
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+.step-card a {
+    text-decoration: none;
+}
+
+.step-card i {
+    color: var(--color-primary);
+}
+
+.step-card--agent { 
+    overflow: visible;
+    flex: 2; /* or 2 if you want it much wider */
+    position: relative;
+ }
+
+.step-desc {
+    color: #6B7280;
+}
+
+.step-title {
+    font-size: 1.4rem;
+}
+
+.step-call {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: black;
+    font-weight: bold;
+}
+
+.step-call span {
+    color: var(--color-primary);
+}
+
+.agent-split {  }
+
+.step-kicker {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.step-icon {
+  width: 64px;
+  height: 64px;
+  margin: 12px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.step-icon svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.step-btn {
+    color: #fff;
+    padding: 12px 15px;
+    background: #1E6BD6;
+    border-radius: 4px;
+}
+
+.agent-split {
+    position: relative;
+    min-height: 260px;      /* <-- gives agent-right a height to fill */
+  width: 100%;
+}
+
+.agent-left {
+    position: absolute;
+    top: 50%;
+    left: -15px;
+    transform: translateY(-34%);
+    width: 400px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 12px 24px rgba(0,0,0,0.12);
+    z-index: 1;
+}
+
+.agent-right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 40%;
+  height: 100%;
+  background-image: url("images/Insurance_Agent.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.agent-btn {
+    background: yellow;
+    border-radius: 25px;
+    color: black;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+.agent-hours {
+    color: #6B7280;
+}
